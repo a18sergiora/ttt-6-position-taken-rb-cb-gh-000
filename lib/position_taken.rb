@@ -3,7 +3,7 @@
 board = ["", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-def position_taken(board,index)
+def position_taken?(board,index)
   if board[index].eq(" ")
     return false
   else
@@ -11,4 +11,4 @@ def position_taken(board,index)
   end
 end
 
-position_taken(board,2)
+position_taken?(board,2)
